@@ -8,4 +8,4 @@ Throughout Last year, I interviewed with more than 12 companies for an entry lev
 
 I have created a mind-map summarizing the most frequent categories and some sample questions.
 
-![Mind Map](/assets/images/infosec mind map.jpg)
+![Mind Map](/assets/images/infosec-mind-map.jpg)
