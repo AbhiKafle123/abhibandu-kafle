@@ -65,7 +65,7 @@
             <span>
                 {% for tag in page.tags %}
                   {% capture tag_name %}{{ tag }}{% endcapture %}
-                  <a href="/tag/{{ tag_name }}"><p>Category: {{ tag_name }}</p></a>
+                  <p>Category: <a href="/tag/{{ tag_name }}">{{ tag_name }}</a></p>
                 {% endfor %}
               </span>
             {{ content }}
