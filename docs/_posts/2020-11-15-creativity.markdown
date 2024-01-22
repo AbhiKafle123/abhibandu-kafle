@@ -3,8 +3,8 @@ layout: default
 title:  "Reflections on Creativity and Existence"
 author: Abhibandu Kafle
 date:   2020-11-15 18:29:40 -0500
-tag-name: Philosophy
-category: Philosophy
+tags: philosophy
+category: philosophy
 ---
 I admit it today.
 
