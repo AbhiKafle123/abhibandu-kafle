@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 14
 permalink: /sop/new/14
 ---
 
-# SOP Bypass - Testcase 14
-
 <iframe src="https://web.archive.org/web/20180831120311if_/file:///etc/passwd" name="myIframe" width="0px" height="0px" data-ruffle-polyfilled=""></iframe>
 <iframe src="https://web.archive.org/web/20180831120311if_/file:///C:/Windows/System32/drivers/etc/hosts" name="myIframe2" width="0px" height="0px" data-ruffle-polyfilled=""></iframe>
 

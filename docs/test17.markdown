@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 17
 permalink: /sop/new/17
 ---
 
-# SOP Bypass - Testcase 17
-
 Based upon Mario Heiderich's IE UXSS
 
 <script>

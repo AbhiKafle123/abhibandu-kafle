@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 12
 permalink: /sop/new/12
 ---
 
-# SOP Bypass - Testcase 12
-
 Testing for SOP bypass using window.open function and race condition
 
 <script>

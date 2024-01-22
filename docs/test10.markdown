@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 10
 permalink: /sop/new/10
 ---
 
-# SOP Bypass - Testcase 10
-
 Cross Scheme data exposure for bypassing SOP
 
 <input type="button" id="btn_test" class="test" value="Run Test Case" onclick="myfunction()">

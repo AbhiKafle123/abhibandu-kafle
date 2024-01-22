@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 15
 permalink: /sop/new/15
 ---
 
-# SOP Bypass - Testcase 15
-
 <script>
 function myfunction() {
     frame = document.body.appendChild(document.createElement("iframe"));

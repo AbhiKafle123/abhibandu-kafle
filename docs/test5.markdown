@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 5
 permalink: /sop/new/5
 ---
 
-# SOP Bypass - Testcase 5
-
 <input type="button" id="btn_test" class="test" value="Run Test Case" onclick="sop()">
 <script>
 function sop() {

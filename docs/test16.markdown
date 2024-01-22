@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 16
 permalink: /sop/new/16
 ---
 
-# SOP Bypass - Testcase 16
-
 Attempting to trigger a SOP Bypass using Nested iframes trick (Blackberry Browser 10) is prone to it
 
 <script>

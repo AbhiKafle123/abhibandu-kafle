@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 18
 permalink: /sop/new/18
 ---
 
-# SOP Bypass - Testcase 18
-
 Based upon Chromium UXSS (2012)
 
 <script>
