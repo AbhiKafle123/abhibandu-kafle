@@ -4,6 +4,7 @@ title:  "Stored XSS on facebook and twitter!"
 author: Abhibandu Kafle
 date:   2014-12-18 18:29:40 -0500
 tag-name: Uncategorized
+category: Uncategorized
 ---
 I and my colleague Prakash were testing random stuffs to find a target that would be worth looking into. We found a new feature on Facebook which allows a user to visit the website of page-owner.The “Shop-now” feature looked interesting with different restrictions for different input fields.
 The app-link field caught my eyes, because “deep-link” URL had particularly idiosyncratic example :

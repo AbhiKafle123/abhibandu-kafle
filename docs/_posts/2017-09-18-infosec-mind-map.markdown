@@ -4,6 +4,7 @@ title:  "Entry Level Information Security Questions mind-map"
 author: Abhibandu Kafle
 date:   2017-09-18 18:29:40 -0500
 tag-name: Interviewing
+category: Interviewing
 ---
 Throughout Last year, I interviewed with more than 12 companies for an entry level infosec related position. Most of the positions were advertised as general infosec/appsec related positions.
 
