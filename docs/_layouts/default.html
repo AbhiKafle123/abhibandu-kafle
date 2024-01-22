@@ -63,10 +63,9 @@
             <p>By {{ page.author }}</p>
             {% endif %}
             <span>
-                <h3>Category: </h3>
                 {% for tag in page.tags %}
                   {% capture tag_name %}{{ tag }}{% endcapture %}
-                  <a href="/tag/{{ tag_name }}"><p>{{ tag_name }}</p></a>
+                  <b>Category: </b><a href="/tag/{{ tag_name }}"><p>{{ tag_name }}</p></a>
                 {% endfor %}
               </span>
             {{ content }}
