@@ -8,4 +8,4 @@ Collection of POCs for previous SOP bypasses, [test cases](https://github.com/Ab
 
 The research was originally presented by Rafay on BlackHat asia 2014.
 
-Here is the [URL]({{ site.baseurl }}new/) to the test suite
+Here is the [URL]({{ site.baseurl }}/sop/new/) to the test suite
