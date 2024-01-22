@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 9
 permalink: /sop/new/9
 ---
 
-# SOP Bypass - Testcase 9
-
 Testing for SOP bypass using escape characters
 <iframe height="0" width="0" name="CVE-2014-6041" src="https://web.archive.org/web/20180831120259if_/https://www.bing.com/" style="display:none;" data-ruffle-polyfilled=""></iframe>
 

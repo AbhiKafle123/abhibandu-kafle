@@ -4,8 +4,6 @@ title: SOP Bypass - Testcase 13
 permalink: /sop/new/13
 ---
 
-# SOP Bypass - Testcase 13
-
 SOP Bypass test case based upon 302 server side redirects
 <iframe height="0" width="0" name="CVE-2014-6041" src="https://web.archive.org/web/20180831120309if_/https://www.bing.com/" style="display:none;" data-ruffle-polyfilled=""></iframe>
 
