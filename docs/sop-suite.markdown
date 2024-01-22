@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SOP Bypass Test
-permalink: /sop/new
+permalink: /sop/new/
 ---
 
 This test suite contains over 40 different test cases that have proven to work with different mobile browsers.
