@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Entry Level Information Security Questions mind-map"
+author: Abhibandu Kafle
 date:   2017-09-18 18:29:40 -0500
 categories: Interviewing
 ---
