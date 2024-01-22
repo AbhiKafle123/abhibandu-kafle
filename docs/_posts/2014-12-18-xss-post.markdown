@@ -28,8 +28,7 @@ Now, along with client side filtering, it doesn’t execute the script even if y
 
 A very similar endpoint existed in twitter, too. You could define the action of a button click by yourself
 
-
-![XSS Post 4]({{ site.baseurl }}/assets/images/stored-xss-4.jpg)
+![XSS Post 4]({{ site.baseurl }}/assets/images/stored-xss-4.png)
 
 but more on that later.
 
