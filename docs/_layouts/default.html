@@ -64,7 +64,7 @@
             {% endif %}
             {{ content }}
 
-            {% unless page.title and page.author and page.date %}
+            {% if page.url == '/' %}
             {% if site.paginate %}
             {% assign posts = paginator.posts %}
             {% else %}
@@ -118,7 +118,7 @@
             {% endif %}
             {% else %}
             <p><a href="https://abhikafle.com.np">Back to Home</a></p>
-            {% endunless %}
+            {% endif %}
         </section>
     </div>
 
