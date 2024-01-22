@@ -3,7 +3,7 @@ layout: default
 title:  "How I hacked your unverified facebook accounts !"
 author: Abhibandu Kafle
 date:   2014-05-28 18:29:40 -0500
-categories: PoC
+tag-name: PoC
 ---
 
 Here’s a little write-up on how I was able to delete any unverified account in facebook. By unverified, I mean those accounts who didnot yet verify their email address linked to facebook.
