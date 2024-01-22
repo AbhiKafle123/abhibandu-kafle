@@ -24,7 +24,7 @@ Lets generate a dictionary from 00000 to 99999.
 
 Now, straightforward stuff! I fired up Burp Suite, “Swiss army knife” for me.
 
-![Facebook 2]({{ site.baseurl }}/assets/images/hack-facebook-2.jpg)
+![Facebook 2]({{ site.baseurl }}/assets/images/hack-facebook-2.JPG)
 
 Notice something peculiar in the last request?
 Yep, the response length changes to show that you’ve made the correct guess. (AJAX response in burp response says that).
@@ -50,4 +50,4 @@ A fix was deployed after 8 hours of submission.
 
 and after 3 days, a handsome bounty followed up:
 
-![Facebook 3]({{ site.baseurl }}/assets/images/hack-facebook-3.jpg)
+![Facebook 3]({{ site.baseurl }}/assets/images/hack-facebook-3.JPG)
