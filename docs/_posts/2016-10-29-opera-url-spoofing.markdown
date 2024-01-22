@@ -3,7 +3,7 @@ layout: default
 title:  "Opera URL Spoofing POC"
 author: Abhibandu Kafle
 date:   2016-10-29 18:29:40 -0500
-categories: Uncategorized
+tag-name: Uncategorized
 ---
 Following is the POC for CVE 2016-4075:
 
