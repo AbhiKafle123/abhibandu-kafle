@@ -1,0 +1,40 @@
+---
+layout: default
+title:  "Stored XSS on facebook and twitter!"
+author: Abhibandu Kafle
+date:   2014-12-18 18:29:40 -0500
+categories: Uncategorized
+---
+I and my colleague Prakash were testing random stuffs to find a target that would be worth looking into. We found a new feature on Facebook which allows a user to visit the website of page-owner.The “Shop-now” feature looked interesting with different restrictions for different input fields.
+The app-link field caught my eyes, because “deep-link” URL had particularly idiosyncratic example :
+ 
+![XSS Post 1]({{ site.baseurl }}/assets/images/stored-xss-1.jpg)
+
+The field was sanitized for special characters like < , “, ‘ , > and didn’t allow any tags to enter. The output for such characters would be:
+
+ ![XSS Post 2]({{ site.baseurl }}/assets/images/stored-xss-2.jpg)
+
+I thought of trying ()  . Surprisingly, they weren’t being sanitized, and of course : wouldn’t be filtered for sure because it would always be used in a URL. I still wasn’t sure if any javascript would be executed. I saved the details to test it out with the applink as javascript:alert(document.domain).
+
+But then I realized I was only couple of clicks to see if the test was successful. In m.facebook.com, under the “shop now feature” was the script being stored. and then,
+
+(Detailed exploit scenario is shown in video)
+
+ ![XSS Post 3]({{ site.baseurl }}/assets/images/stored-xss-3.jpg)
+
+Script was straightforward inserted into “a href” tag and anyone clicking on the button link would be exploited.
+
+Now, along with client side filtering, it doesn’t execute the script even if you managed to circumvent the client side protection in some way.
+
+A very similar endpoint existed in twitter, too. You could define the action of a button click by yourself
+
+
+![XSS Post 4]({{ site.baseurl }}/assets/images/stored-xss-4.jpg)
+
+but more on that later.
+
+Both vulnerabilities have been patched by respective security teams.
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-krCm5jN87I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Thanks for the read!
