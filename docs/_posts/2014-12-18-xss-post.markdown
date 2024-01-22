@@ -35,6 +35,6 @@ but more on that later.
 
 Both vulnerabilities have been patched by respective security teams.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-krCm5jN87I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1273" height="716" src="https://www.youtube.com/embed/-krCm5jN87I" title="Facebook stored xss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Thanks for the read!

@@ -5,7 +5,7 @@ author: Abhibandu Kafle
 date:   2014-05-28 18:29:40 -0500
 categories: PoC
 ---
-How I hacked your unverified facebook accounts !
+
 Here’s a little write-up on how I was able to delete any unverified account in facebook. By unverified, I mean those accounts who didnot yet verify their email address linked to facebook.
 All (or most) of my bugs have been authentication related to many vendors, this was no different.
 Here is how I did it:
@@ -15,7 +15,6 @@ The sign up function lets you create a new Facebook account but the response was
 
 When clicked on the “Insert the confirmation code instead” it lets you enter 5-digit number only code.
 
- 
 
 Lets generate a dictionary from 00000 to 99999.
 

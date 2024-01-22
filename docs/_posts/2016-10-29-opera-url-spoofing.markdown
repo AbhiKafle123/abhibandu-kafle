@@ -7,7 +7,7 @@ categories: Uncategorized
 ---
 Following is the POC for CVE 2016-4075:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ElZNFXySRCE&feature=youtu.be" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1273" height="716" src="https://www.youtube.com/embed/ElZNFXySRCE" title="Opera Browser URL Spoofing CVE 2016 4075" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The POC is [here](https://abhikafle.com.np/spoof.html)
 
