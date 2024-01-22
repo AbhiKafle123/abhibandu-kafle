@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: uncategorized"
+title: "Tag: Uncategorized"
 tag: uncategorized
 ---

@@ -1,4 +1,5 @@
 ---
-layout: tags
-tag-name: PoC
+layout: tagpage
+title: "Tag: Poc"
+tag: poc
 ---
