@@ -6,7 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      header.inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
 
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+    </style>
 {% seo %}
     {% include head-custom.html %}
   </head>
@@ -15,18 +38,18 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a href="/abhibandu-kafle">
-            <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          </a>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        </header>
+      <header class="inner">
+        <a href="/abhibandu-kafle">
+          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         <nav>
           <ul>
-              <li><a href="/">About Me</a></li>
-              <li><a href="/about/">SOP bypass test</a></li>
+            <li><a href="/">About Me</a></li>
+            <li><a href="/about/">SOP bypass test</a></li>
           </ul>
-      </nav>
+        </nav>
+      </header>      
     </div>
 
     <!-- MAIN CONTENT -->
