@@ -70,6 +70,19 @@
               </span>
             {{ content }}
 
+            <!-- Utterances script for posts with an author -->
+            {% if page.author %}
+            <div id="comments">
+                <script src="https://utteranc.es/client.js"
+                        repo="AbhiKafle123/abhibandu-kafle"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+            {% endif %}
+
             {% if page.url == '/' %}
             {% if site.paginate %}
             {% assign posts = paginator.posts %}

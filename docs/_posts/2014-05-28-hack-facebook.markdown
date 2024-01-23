@@ -52,3 +52,4 @@ A fix was deployed after 8 hours of submission.
 and after 3 days, a handsome bounty followed up:
 
 ![Facebook 3]({{ site.baseurl }}/assets/images/hack-facebook-3.JPG)
+
