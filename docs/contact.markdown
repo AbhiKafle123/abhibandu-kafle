@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <form action="https://formspree.io/f/xwkgvvre" method="POST">
-    <label for="email">Your Email:</label><br>
+    <label for="email">Your Email(s):</label><br>
     <input type="email" id="email" name="_replyto" placeholder="Enter your email(s)" required><br>
 
     <label for="message">Your Message:</label><br>
